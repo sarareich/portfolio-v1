@@ -348,16 +348,22 @@ input[type=submit]:hover {
 }
 
 .description {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto -40px auto;
-  padding: 0 3%;
+  padding: 0;
 }
 
 .portfolio-images {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   padding-top: 50px;
   clear: both;
+}
+
+.portfolio-images img {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
 }
 
 #back a {
