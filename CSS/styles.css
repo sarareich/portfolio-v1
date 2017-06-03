@@ -320,12 +320,17 @@ input[type=submit]:hover {
   text-align: center;
 }
 
-.half {
+.half-left {
   float: left;
   width: 50%;
 }
 
-.half-image img{
+.half-right {
+  float: right;
+  width: 50%;
+}
+
+.half-image img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -333,6 +338,7 @@ input[type=submit]:hover {
 
 /* Portfolio Pages */
 .portfolio {
+  padding: 0 3%;
   margin-bottom: 30px;
   overflow: hidden;
 }
@@ -344,11 +350,18 @@ input[type=submit]:hover {
 .description {
   max-width: 800px;
   margin: 0 auto -40px auto;
-  padding: 0;
+  padding: 0 3%;
 }
 
 .portfolio-images {
-  margin: 0;
+  max-width: 800px;
+  margin: 0 auto;
   padding-top: 50px;
   clear: both;
+}
+
+#back a {
+  margin-left: 1%;
+  font-size: 0.8rem;
+  text-decoration: none;
 }
