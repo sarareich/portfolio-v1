@@ -378,3 +378,7 @@ input[type=submit]:hover {
   font-size: 0.8rem;
   text-decoration: none;
 }
+
+#edx {
+  text-transform: none;
+}
