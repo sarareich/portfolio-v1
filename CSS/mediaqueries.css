@@ -37,6 +37,14 @@
 		height: 245px;
 		margin: 10px;
 	}
+
+	.half-left, .half-right {
+		width: 100%;
+	}
+
+	.caption p {
+		margin-top: 16px;
+	}
 }
 
 /* Mobile Phones Portrait */
