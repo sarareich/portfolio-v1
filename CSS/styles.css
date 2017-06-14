@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   padding: 0 3%;
   margin: 0px;
-  background-color: #f2f2f2;
+  background-color: #fafafa;
   color: #5A6464;
 }
 
@@ -200,6 +200,14 @@ footer {
 	left: -4%;
 }
 
+#menu {
+  left: -27%;
+}
+
+/*#edx-img {
+  left: -10%;
+}*/
+
 .work .image .caption {
   width: 100%;
   height: 100%;
@@ -366,8 +374,16 @@ input[type=submit]:hover {
   padding: 0 3%;
 }
 
+.portfolio-caption {
+  max-width: 800px;
+  overflow: auto;
+  padding: 0 3%;
+  margin: 20px auto 0 auto;
+}
+
 .portfolio-images {
   max-width: 800px;
+  overflow: auto;
   margin: 0 auto;
   padding-top: 50px;
   clear: both;
@@ -381,4 +397,9 @@ input[type=submit]:hover {
 
 #edx {
   text-transform: none;
+}
+
+#donate-2 {
+  margin-top: 20px;
+  clear: both;
 }
