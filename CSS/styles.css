@@ -204,9 +204,9 @@ footer {
   left: -7%;
 }
 
-/*#edx-img {
-  left: -10%;
-}*/
+#menu {
+  width: 100%;
+}
 
 .work .image .caption {
   width: 100%;
@@ -323,6 +323,8 @@ input[type=submit]:hover {
   overflow: hidden;
 }
 
+
+/*Images and text*/
 .half-text {
   margin: 0;
   padding: 0 20px 0 25px;
@@ -332,7 +334,7 @@ input[type=submit]:hover {
   margin: 0;
 }
 
-.half-image {
+.half-image, .full-image {
   padding: 0 25px 0 20px;
   margin: 0;
   text-align: center;
@@ -348,11 +350,13 @@ input[type=submit]:hover {
   width: 50%;
 }
 
-.half-image img{
+.half-image img, .full-image img{
   max-width: 100%;
   height: auto;
   display: block;
 }
+
+
 
 /* Portfolio Pages */
 .portfolio {
