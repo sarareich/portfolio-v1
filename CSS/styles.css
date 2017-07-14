@@ -47,6 +47,11 @@ h2 {
   text-transform: lowercase;
   text-align: center;
   font-family: 'Bentham', serif;
+
+  font-size: 2.25rem;
+  line-height: 1.1rem;
+  color: #000000;
+  text-align: center;
 }
 
 h1 a {
@@ -57,13 +62,6 @@ h1 a {
 h1 a:hover {
   color: #000000;
   text-decoration: none;
-}
-
-h2 {
-  font-size: 2.25rem;
-  line-height: 1.1rem;
-  color: #000000;
-  text-align: center;
 }
 
 h3 {
@@ -406,4 +404,108 @@ input[type=submit]:hover {
 #donate-2 {
   margin-top: 20px;
   clear: both;
+}
+
+/* Image Lightbox */
+.lightbox_trigger:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.lightbox_trigger{
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+}
+
+.lightbox {
+  position: fixed;
+  z-index: 1;
+  padding: 0 10% 0 10%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  overflow: auto;
+}
+
+#content {  
+  height: 100vh; /*can be anything*/
+  width: 100%; /*can be anything*/
+  position: relative;
+}
+
+#content img {  
+  max-height: 100%;  
+  max-width: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
+
+#lightbox_caption {
+  color: #f2f2f2;
+  font-size: 0.9rem;
+  /*padding: 8px 12px;*/
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.close, .prev, .next {
+  font-size: 45px;
+  font-weight: bold;
+  color: #f1f1f1;
+
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+}
+
+.prev, .next {
+  position: fixed;
+  top: 40%;
+  padding: 3%;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.close {
+  position: fixed;
+  top: 1%;
+  right: 3%;
+}
+
+.close:hover, .prev:hover, .next:hover {
+  color: #4F7CAC;
+  cursor: pointer;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
