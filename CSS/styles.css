@@ -312,6 +312,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #4F7CAC;
+  cursor: pointer;
 }
 
 /* About Page */
