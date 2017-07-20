@@ -2,6 +2,8 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+
+  overflow-y: scroll;
 }
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -258,7 +260,7 @@ footer {
   margin-bottom: 0;
 }
 
-#contact p {
+#contact p, .thanks p {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 20px;
