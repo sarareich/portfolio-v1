@@ -192,8 +192,16 @@ footer {
   position: relative;
 }
 
-#processing img {
+#impact img {
+  left: -4%;
+}
+
+#screensaver img {
 	left: -25%;
+}
+
+#videogame img {
+  left: -5%;
 }
 
 #quote img{
