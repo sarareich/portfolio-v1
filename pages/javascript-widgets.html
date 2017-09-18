@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Sara Reich</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Bentham|Lato" rel="stylesheet">
+	
+	<link rel="stylesheet" href="../CSS/styles.css" media="screen">
+  <link rel="stylesheet" href="../CSS/mediaqueries.css" media="screen">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="../js/script.js"></script>
+
+</head>
+
+<body>
+  <div class = "container">
+  <header id="home">
+    <h1><a href="../index.html">sara reich</a></h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html" class="active">Porfolio</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class = "portfolio">
+    <h2>JavaScript Widgets</h2>
+
+    <div class = "description">
+     <p>I created these projects to practice my skills in JavaScript and jQuery. Both of the projects utilize APIs to gather and present data.</p>
+    </div>
+
+    <div class = "portfolio-images">
+    <h3>Quote Generator</h3>
+    <figure class = "half-image half-left">
+      <img src = "../images/quotegenerator.gif" alt="Quote Generator" class="lightbox_trigger" id="1">
+    </figure>
+    <div class = "half-text half-left caption">
+      <p>This widget generates random quotes using the <a href = "https://forismatic.com/en/api/" target="_blank">forismatic API</a>. The background randomly cycles through a series of colors.</p>
+    </div>
+    </div>
+
+    <div class = "portfolio-images">
+    <h3>Weather App</h3>
+    <figure class = "half-image half-right">
+      <img src = "../images/weather.gif" alt="Weather" class="lightbox_trigger" id="2">
+    </figure>
+    <div class = "half-text half-right caption">
+      <p>This widget identifies the user's location and provides the current weather. It utilizes the <a href = "https://www.wunderground.com/weather/api/" target="_blank">Weather Underground API</a>.</p>
+    </div>
+    </div>
+
+  </section>
+
+  <div id = "back">
+  <p>
+    <a href = "../index.html"> &larr; back</a>
+  </p>
+  </div>
+
+  <div class = "lightbox" style="display:none">
+    <span class="close noselect">&times;</span>
+    <span class="prev noselect">&#10094;</span>
+    <span class="next noselect">&#10095;</span>
+    <div id="content"></div>
+  </div>
+
+  <footer>
+    <p>Created by Sara Reich &copy 2017</p>
+  </footer>
+  </div>
+</body>
+
+</html>
