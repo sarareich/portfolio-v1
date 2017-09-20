@@ -38,17 +38,34 @@
 		margin: 10px;
 	}
 
-	.half-left, .half-right {
+	.half-left, .half-right, .center {
 		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	#center {
+		padding-top: 0;
 	}
 
 	.caption p {
-		margin-top: 16px;
+		/*margin-top: 16px;*/
+	}
+
+	.portfolio-caption {
+		margin: 0;
+	}
+
+	.portfolio-caption p {
+		margin: 0;
+	}
+
+	.close, .prev, .next {
+		font-size: 35px;
 	}
 }
 
 /* Mobile Phones Portrait */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.container {
 		max-width: 432;
 	}
@@ -57,6 +74,10 @@
 		width: 310px;
 		height: 310px;
 		margin: 10px;
+	}
+
+	.close, .prev, .next {
+		font-size: 30px;
 	}
 }
 

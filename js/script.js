@@ -34,6 +34,8 @@ $(document).ready(function() {
 	});
 
 	function openLightbox() {
+		$("body").addClass("noScroll");
+
 		img_src = $("#" + slide).attr("src");
 		caption = $("#" + slide).attr("alt");
 
