@@ -47,9 +47,6 @@
 		padding-top: 0;
 	}
 
-	.caption p {
-		/*margin-top: 16px;*/
-	}
 
 	.portfolio-caption {
 		margin: 0;
@@ -78,6 +75,10 @@
 
 	.close, .prev, .next {
 		font-size: 30px;
+	}
+
+	#lightbox_caption {
+		/*bottom: 10%;*/
 	}
 }
 
