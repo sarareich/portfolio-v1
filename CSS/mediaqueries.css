@@ -76,10 +76,6 @@
 	.close, .prev, .next {
 		font-size: 30px;
 	}
-
-	#lightbox_caption {
-		/*bottom: 10%;*/
-	}
 }
 
 @media only screen and (max-width: 380px) {
