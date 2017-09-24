@@ -481,7 +481,7 @@ input[type=submit]:hover {
   font-size: 0.9rem;
   padding: 8px 12px;
   position: absolute;
-  /*bottom: 10%;*/
+  bottom: 3px;
   width: 100%;
   text-align: center;
 }
