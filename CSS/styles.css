@@ -131,13 +131,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  /*color: rgb(90, 100, 100);*/
   color: #4F7CAC;
   text-decoration: none;
 }
 
 .active {
-  /*color: rgb(90, 100, 100);*/
   color: #4F7CAC;
   text-decoration: none;
 }
@@ -211,10 +209,6 @@ footer {
 #weather img{
   left: -7%;
 }
-
-/*#menu {
-  width: 100%;
-}*/
 
 .work .image .caption {
   width: 100%;
@@ -370,8 +364,6 @@ input[type=submit]:hover {
   display: block;
 }
 
-
-
 /* Portfolio Pages */
 .portfolio {
   margin-bottom: 30px;
@@ -431,7 +423,6 @@ input[type=submit]:hover {
 }
 
 /* Image Lightbox */
-
 .lightbox_trigger:hover {
   opacity: 0.8;
   cursor: pointer;
@@ -503,8 +494,6 @@ input[type=submit]:hover {
 }
 
 .prev, .next {
-/*  position: fixed;
-  top: 40%;*/
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
