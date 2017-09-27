@@ -426,6 +426,10 @@ input[type=submit]:hover {
   clear: both;
 }
 
+#donations{
+  margin-bottom: 0px;
+}
+
 /* Image Lightbox */
 
 .lightbox_trigger:hover {
