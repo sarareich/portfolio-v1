@@ -403,11 +403,26 @@ input[type=submit]:hover {
   clear: both;
 }
 
-#back a {
+#back {
+  float: left;
   margin-left: 1%;
+}
+
+#next {
+  float: right;
+  margin-right: 1%;
+}
+
+#back a, #next a {
+  /*margin-left: 1%;*/
   font-size: 0.8rem;
   text-decoration: none;
 }
+
+/*#next a {
+  font-size: 0.8rem;
+  text-decoration: none;
+}*/
 
 #edx {
   text-transform: none;
